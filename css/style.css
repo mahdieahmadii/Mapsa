@@ -1,0 +1,113 @@
+@font-face {
+    font-family: IRANsans;
+    src: url(../fonts/IRANSans.ttf);
+}
+body{
+    font-family: IRANsans;
+}
+.contex{
+    font-size: 16px;
+    text-align: right;
+    font-weight: 400;
+    color: black;
+}
+.img-profile{
+    width: 50px;
+    border-radius: 100%;
+} 
+.navbar-nav{
+    font-family: IRANsans;
+} 
+.bg-orange{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.nav-link{
+    color: black;
+}
+.img-book{
+    width: 200px;
+}
+.bg-books{
+    height:600px;
+    width: 100%;
+    background-image: url(../images/bg.jpg);
+}
+.price{
+    color:gray;
+    font-size: 13px;
+}
+.text-orange{
+    color:orange;
+}
+footer{
+    color:#fff;
+}
+.card-text{
+    text-align: justify;
+}
+.btn-danger{
+    background-color: red;
+}
+.btn-danger:hover{
+    background-color: red;
+}
+.card{
+    border: none;
+}
+.titr{
+    background-color: #719FD5;
+    color:#fff;
+    font-size: 22px;
+}
+.border{
+    border: 10px solid black;
+}
+.location{
+    width: 100%;
+    height: 300px;
+}
+ul li{
+    color:black;
+    text-align: right;
+    list-style: none;
+}
+form{
+    width: 50%;
+    margin: 40px auto;
+    border: 4px solid #719FD5;
+    border-radius: 10px;
+}
+.btns{
+    text-align: center;
+}
+.table{
+    width: 75%;
+    margin: 40px auto;
+    border: 4px solid #719FD5;
+}
+th , td{
+    text-align: right;
+}
+.calc {
+    text-align: center;
+  }
+.btn-calc{
+    padding: 10px 20px;
+    width:50px;
+    margin: 5px;
+}
+.btn-outline-danger{
+    color: red;
+    border: 1px solid red;
+}
+.btn-outline-danger:hover{
+    background-color: red;
+}
+.input-group{
+    margin: 10px auto;
+    width: 245px;
+    color: red;
+}
+.form-control{
+    border-color: red;
+}
