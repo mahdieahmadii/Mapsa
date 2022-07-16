@@ -7,15 +7,17 @@ function randomGenerator(){
   document.querySelector("#img-dice1").setAttribute("src" , `../images/${firstNum}.png`);
   document.querySelector("#img-dice2").setAttribute("src" , `../images/${secondNum}.png`);
   
-  if (firstNum > secondNum){
-    playerOne++;
-    document.querySelector(".score-num1").innerHTML = playerOne;
-  }else if(firstNum < secondNum){
-    playerTwo++;
-    document.querySelector(".score-num2").innerHTML = playerTwo;
-  }else if(firstNum = secondNum){
+  if (firstNum > secondNum && playerOne < 5){
+      playerOne++ ;
+      document.querySelector(".score-num1").innerHTML = playerOne;
+    }
+  else if(firstNum < secondNum && playerTwo < 5){
+      playerTwo++ ;
+      document.querySelector(".score-num2").innerHTML = playerOne;  
+    }
+  else if(firstNum = secondNum){
     alert("equal");
-  }
+    }
 }
 function Reset(){
   document.querySelector(".score-num1").innerHTML = 0;
