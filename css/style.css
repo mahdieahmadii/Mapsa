@@ -111,3 +111,27 @@ th , td{
 .form-control{
     border-color: red;
 }
+#player1 , #player2{
+    background-color: #1818db ;
+}
+#res{
+    background-color: #4545eb ;
+    text-align: center;
+}
+.score , .score-num{
+    font-family: VT323;
+    font-size: 100px;
+    color: #fff;
+    text-align: center;
+}
+.player{
+    text-align: center;
+    font-size: 38px;
+    font-family: VT323;
+}
+.dice{
+    font-size: 38px;
+    font-family: VT323;
+    color: white;
+    text-align: center;
+}
