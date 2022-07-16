@@ -17,6 +17,10 @@ function randomGenerator(){
     alert("equal");
   }
 }
+function Reset(){
+  document.querySelector(".score-num1").innerHTML = 0;
+  document.querySelector(".score-num2").innerHTML = 0;
+}
 
 
 
